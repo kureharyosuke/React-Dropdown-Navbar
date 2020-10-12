@@ -1,12 +1,14 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 
 import "./App.css";
+import { Router } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <h1>YOU</h1>
-    </>
+    <Router>
+      <Navbar />
+    </Router>
   );
 }
 
