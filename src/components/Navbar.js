@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "./Button";
 import Dropdown from "./Dropdown";
-import { FaPlug, FaTimes, FaStream, FaCaretDown } from "react-icons/fa";
 import "./Navbar.css";
+import { FaPlug, FaTimes, FaStream, FaCaretDown } from "react-icons/fa";
 
 function Navbar() {
   const [click, setClick] = useState(false);
